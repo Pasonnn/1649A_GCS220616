@@ -1,0 +1,5 @@
+customerId,customerName,age,email,phoneNumber,shipAddress
+C123,Son Nguyen,20,son@example.com,123-456-7890,123 Elm St
+C124,William Wu,20,william@example.com,234-567-8901,456 Pho Co
+C125,Quang Minh,20,minh@example.com,345-678-9012,789 Long Bien
+C126,Nam Phan,20,nam@example.com,456-789-0123,101 Maple Ave

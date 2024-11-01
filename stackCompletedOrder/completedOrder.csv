@@ -1,0 +1,5 @@
+orderId,customerId,customerName,orderDate,books,totalPrice
+001,C123,Son Nguyen,2024-11-01T13:10:11.345987500,"The Great Gatsby; To Kill a Mockingbird; 1984",29.97
+002,C124,William Wu,2024-11-01T13:10:11.348204900,"The Catcher in the Rye; The Hobbit; Harry Potter and the Sorcerer's Stone",36.97
+003,C125,Quang Minh,2024-11-01T13:10:11.349210100,"Pride and Prejudice; The Lord of the Rings; Animal Farm; The Chronicles of Narnia",48.96
+
