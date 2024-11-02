@@ -13,11 +13,11 @@ public class Main {
         HashMap<String, Customer> customers = readCustomersFromCSV("customers.csv");
 
         // Split books into orders (for example, 3 books per order)
-        orderQueue.enqueue("001", customers.get("C123"), new Book[] { books.get(0), books.get(1), books.get(2) });
-        orderQueue.enqueue("002", customers.get("C124"), new Book[] { books.get(3), books.get(4), books.get(5) });
+        orderQueue.enqueue("001", customers.get("C123"), new Book[] { books.get(91), books.get(32), books.get(23) });
+        orderQueue.enqueue("002", customers.get("C124"), new Book[] { books.get(14), books.get(25), books.get(26) });
         orderQueue.enqueue("003", customers.get("C125"),
-                new Book[] { books.get(6), books.get(7), books.get(8), books.get(9) });
-        orderQueue.enqueue("004", customers.get("C126"), new Book[] { books.get(2) });
+                new Book[] { books.get(6), books.get(27), books.get(42), books.get(29) });
+        orderQueue.enqueue("004", customers.get("C126"), new Book[] { books.get(51) });
 
         // Process all orders in the queue
         while (!orderQueue.isEmpty()) {

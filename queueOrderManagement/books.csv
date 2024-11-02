@@ -9,3 +9,85 @@ id,title,author,price,isbn,stock
 8,The Lord of the Rings,J.R.R. Tolkien,20.99,8901234567,6
 9,Animal Farm,George Orwell,5.99,9012345678,8
 10,The Chronicles of Narnia,C.S. Lewis,14.99,0123456789,1
+11,War and Peace,Leo Tolstoy,19.99,1234509876,3
+12,Brave New World,Aldous Huxley,10.49,2345610987,4
+13,Jane Eyre,Charlotte Bronte,11.49,3456721098,2
+14,Wuthering Heights,Emily Bronte,9.49,4567832109,5
+15,Crime and Punishment,Fyodor Dostoevsky,12.49,5678943210,7
+16,Great Expectations,Charles Dickens,8.99,6789054321,6
+17,The Odyssey,Homer,13.99,7890165432,9
+18,Moby-Dick,Herman Melville,17.99,8901276543,3
+19,Frankenstein,Mary Shelley,7.49,9012387654,2
+20,Les Misérables,Victor Hugo,18.99,0123498765,1
+21,Dracula,Bram Stoker,8.49,1234567891,6
+22,Lolita,Vladimir Nabokov,11.99,2345678902,5
+23,The Divine Comedy,Dante Alighieri,20.49,3456789013,2
+24,The Iliad,Homer,14.99,4567890124,3
+25,Madame Bovary,Gustave Flaubert,13.49,5678901235,4
+26,The Brothers Karamazov,Fyodor Dostoevsky,15.99,6789012346,6
+27,Anna Karenina,Leo Tolstoy,16.99,7890123457,8
+28,Alice's Adventures in Wonderland,Lewis Carroll,9.49,8901234568,2
+29,The Grapes of Wrath,John Steinbeck,12.99,9012345679,4
+30,The Picture of Dorian Gray,Oscar Wilde,10.99,0123456780,5
+31,Ulysses,James Joyce,18.49,1234567892,1
+32,Fahrenheit 451,Ray Bradbury,9.99,2345678903,7
+33,The Metamorphosis,Franz Kafka,6.99,3456789014,3
+34,One Hundred Years of Solitude,Gabriel Garcia Marquez,14.99,4567890125,2
+35,Don Quixote,Miguel de Cervantes,19.49,5678901236,4
+36,The Old Man and the Sea,Ernest Hemingway,8.99,6789012347,6
+37,A Tale of Two Cities,Charles Dickens,10.49,7890123458,7
+38,The Sound and the Fury,William Faulkner,13.99,8901234569,8
+39,Catch-22,Joseph Heller,12.49,9012345670,5
+40,The Sun Also Rises,Ernest Hemingway,11.99,0123456781,9
+41,East of Eden,John Steinbeck,14.49,1234567893,2
+42,Slaughterhouse-Five,Kurt Vonnegut,10.99,2345678904,6
+43,Of Mice and Men,John Steinbeck,7.99,3456789015,4
+44,The Stranger,Albert Camus,8.49,4567890126,5
+45,Gulliver's Travels,Jonathan Swift,10.49,5678901237,3
+46,The Scarlet Letter,Nathaniel Hawthorne,9.49,6789012348,4
+47,Rebecca,Daphne du Maurier,11.99,7890123459,6
+48,The Handmaid's Tale,Margaret Atwood,13.49,8901234560,8
+49,Heart of Darkness,Joseph Conrad,7.49,9012345671,5
+50,The Alchemist,Paulo Coelho,9.99,0123456782,4
+51,A Clockwork Orange,Anthony Burgess,8.99,1234567894,3
+52,Invisible Man,Ralph Ellison,10.99,2345678905,2
+53,The Fountainhead,Ayn Rand,15.49,3456789016,7
+54,The Bell Jar,Sylvia Plath,9.99,4567890127,1
+55,On the Road,Jack Kerouac,11.49,5678901238,5
+56,The Call of the Wild,Jack London,7.99,6789012349,8
+57,Native Son,Richard Wright,8.49,7890123450,6
+58,Beloved,Toni Morrison,12.99,8901234561,9
+59,Things Fall Apart,Chinua Achebe,6.99,9012345672,7
+60,Their Eyes Were Watching God,Zora Neale Hurston,10.49,0123456783,5
+61,The Road,Cormac McCarthy,11.99,1234567895,2
+62,White Teeth,Zadie Smith,14.99,2345678906,4
+63,Middlesex,Jeffrey Eugenides,13.49,3456789017,6
+64,Atonement,Ian McEwan,12.99,4567890128,5
+65,The Color Purple,Alice Walker,8.99,5678901239,3
+66,The Catcher in the Rye,J.D. Salinger,7.99,6789012350,4
+67,The Joy Luck Club,Amy Tan,10.99,7890123451,1
+68,The Kite Runner,Khaled Hosseini,13.99,8901234562,7
+69,Life of Pi,Yann Martel,11.49,9012345673,8
+70,The Book Thief,Markus Zusak,14.49,0123456784,2
+71,The Lovely Bones,Alice Sebold,9.99,1234567896,6
+72,The Shining,Stephen King,12.99,2345678907,5
+73,It,Stephen King,15.99,3456789018,9
+74,Pet Sematary,Stephen King,10.49,4567890129,8
+75,The Stand,Stephen King,18.99,5678901240,6
+76,Ender's Game,Orson Scott Card,7.99,6789012351,5
+77,The Time Traveler's Wife,Audrey Niffenegger,13.99,7890123452,4
+78,Good Omens,Neil Gaiman & Terry Pratchett,11.99,8901234563,2
+79,American Gods,Neil Gaiman,16.49,9012345674,3
+80,The Name of the Wind,Patrick Rothfuss,14.99,0123456785,7
+81,The Wise Man's Fear,Patrick Rothfuss,17.49,1234567897,6
+82,The Hunger Games,Suzanne Collins,10.99,2345678908,9
+83,Catching Fire,Suzanne Collins,11.99,3456789019,8
+84,Mockingjay,Suzanne Collins,12.99,4567890130,7
+85,Dune,Frank Herbert,13.99,5678901241,5
+86,The Fault in Our Stars,John Green,9.99,6789012352,4
+87,Percy Jackson and the Olympians,Rick Riordan,8.49,7890123453,6
+88,The Lightning Thief,Rick Riordan,7.49,8901234564,2
+89,The Sea of Monsters,Rick Riordan,8.99,9012345675,3
+90,The Titan's Curse,Rick Riordan,10.49,0123456786,5
+91,The Battle of the Labyrinth,Rick Riordan,11.99,1234567898,4
+92,The Last Olympian,Rick Riordan,13.99,2345678909,6
