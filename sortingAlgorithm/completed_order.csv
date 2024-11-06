@@ -1,0 +1,51 @@
+orderId,customerId,customerName,orderDate,books,totalPrice
+001,C124,William Wu,2024-11-04T00:00:12,"The Odyssey; The Sound and the Fury; Dracula",41.29
+002,C125,Quang Minh,2024-11-02T06:33:54,"The Catcher in the Rye; War and Peace",26.55
+003,C126,Nam Phan,2024-11-05T02:12:41,"Moby-Dick; The Stranger",22.17
+004,C123,Son Nguyen,2024-11-04T04:11:10,"One Hundred Years of Solitude; War and Peace; Brave New World; A Tale of Two Cities",54.08
+005,C126,Nam Phan,2024-11-05T07:29:42,"The Odyssey; Of Mice and Men; East of Eden",35.22
+006,C125,Quang Minh,2024-11-02T05:50:15,"The Iliad; The Picture of Dorian Gray",26.98
+007,C124,William Wu,2024-11-01T15:10:11,"Great Expectations; The Grapes of Wrath",28.23
+008,C125,Quang Minh,2024-11-04T15:29:12,"Anna Karenina; Lolita",29.48
+009,C126,Nam Phan,2024-11-02T21:54:16,"The Great Gatsby; Frankenstein; Dracula; The Hobbit",34.12
+010,C123,Son Nguyen,2024-11-03T08:23:25,"A Tale of Two Cities; The Odyssey; Heart of Darkness",29.34
+011,C124,William Wu,2024-11-04T12:18:31,"The Brothers Karamazov; Brave New World",22.54
+012,C126,Nam Phan,2024-11-03T11:43:29,"The Sound and the Fury; Jane Eyre; Wuthering Heights",30.75
+013,C123,Son Nguyen,2024-11-05T13:10:11,"Frankenstein; Heart of Darkness; The Odyssey",34.23
+014,C124,William Wu,2024-11-01T16:14:11,"The Odyssey; A Tale of Two Cities; The Iliad; The Grapes of Wrath",43.12
+015,C126,Nam Phan,2024-11-04T18:11:32,"The Picture of Dorian Gray; Ulysses; The Scarlet Letter",26.91
+016,C123,Son Nguyen,2024-11-01T22:17:56,"The Odyssey; The Brothers Karamazov",18.63
+017,C124,William Wu,2024-11-02T09:25:43,"Lolita; The Iliad",26.32
+018,C126,Nam Phan,2024-11-03T14:20:01,"Moby-Dick; The Grapes of Wrath; The Scarlet Letter",35.28
+019,C125,Quang Minh,2024-11-02T03:22:53,"The Picture of Dorian Gray; Ulysses; Brave New World",32.34
+020,C124,William Wu,2024-11-01T19:09:56,"The Odyssey; A Tale of Two Cities; Dracula",29.97
+021,C123,Son Nguyen,2024-11-05T01:10:11,"The Brothers Karamazov; Jane Eyre; The Catcher in the Rye",37.89
+022,C124,William Wu,2024-11-04T20:11:30,"Lolita; Heart of Darkness; East of Eden",35.98
+023,C126,Nam Phan,2024-11-01T13:54:16,"The Odyssey; One Hundred Years of Solitude; The Iliad",40.23
+024,C125,Quang Minh,2024-11-03T03:44:51,"The Catcher in the Rye; Frankenstein; Brave New World",24.89
+025,C123,Son Nguyen,2024-11-02T17:55:16,"The Odyssey; Lolita; A Tale of Two Cities",39.21
+026,C126,Nam Phan,2024-11-01T21:33:12,"The Picture of Dorian Gray; The Sound and the Fury",19.89
+027,C124,William Wu,2024-11-05T04:10:10,"The Iliad; Lolita",28.47
+028,C123,Son Nguyen,2024-11-03T20:41:39,"Frankenstein; The Catcher in the Rye; The Grapes of Wrath",26.85
+029,C125,Quang Minh,2024-11-02T15:56:27,"Lolita; Heart of Darkness; The Odyssey",28.99
+030,C124,William Wu,2024-11-01T18:12:44,"Moby-Dick; The Iliad; Wuthering Heights",37.34
+031,C126,Nam Phan,2024-11-04T16:17:34,"East of Eden; The Sound and the Fury; One Hundred Years of Solitude",43.09
+032,C125,Quang Minh,2024-11-03T22:20:11,"The Brothers Karamazov; The Odyssey; War and Peace",33.29
+033,C124,William Wu,2024-11-05T02:11:42,"The Odyssey; Brave New World; The Picture of Dorian Gray",32.55
+034,C123,Son Nguyen,2024-11-03T15:29:56,"The Brothers Karamazov; Ulysses",22.87
+035,C126,Nam Phan,2024-11-04T08:12:01,"The Catcher in the Rye; Dracula",16.99
+036,C123,Son Nguyen,2024-11-02T11:10:50,"The Odyssey; One Hundred Years of Solitude",25.34
+037,C124,William Wu,2024-11-03T06:19:13,"Jane Eyre; Brave New World; Wuthering Heights",32.21
+038,C125,Quang Minh,2024-11-01T23:40:34,"The Iliad; Lolita; Heart of Darkness",30.45
+039,C126,Nam Phan,2024-11-01T20:44:27,"The Odyssey; A Tale of Two Cities; Dracula",37.23
+040,C123,Son Nguyen,2024-11-02T03:11:30,"The Brothers Karamazov; East of Eden",20.76
+041,C124,William Wu,2024-11-05T11:12:35,"War and Peace; One Hundred Years of Solitude; The Iliad",42.11
+042,C125,Quang Minh,2024-11-03T09:33:48,"The Odyssey; Wuthering Heights",17.67
+043,C126,Nam Phan,2024-11-04T13:32:19,"The Catcher in the Rye; The Scarlet Letter",18.99
+044,C123,Son Nguyen,2024-11-01T17:24:30,"The Odyssey; War and Peace",27.47
+045,C124,William Wu,2024-11-03T00:22:17,"The Iliad; Lolita; Brave New World",31.56
+046,C126,Nam Phan,2024-11-02T05:42:10,"Frankenstein; The Odyssey; Heart of Darkness",34.89
+047,C125,Quang Minh,2024-11-02T12:15:50,"Jane Eyre; The Catcher in the Rye; The Odyssey",28.17
+048,C124,William Wu,2024-11-01T21:59:14,"The Brothers Karamazov; East of Eden; Dracula",33.78
+049,C123,Son Nguyen,2024-11-03T13:31:15,"The Catcher in the Rye; Brave New World",24.34
+050,C126,Nam Phan,2024-11-04T19:35:12,"Moby-Dick; War and Peace; Wuthering Heights",39.95

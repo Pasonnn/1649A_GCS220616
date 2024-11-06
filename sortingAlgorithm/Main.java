@@ -7,10 +7,13 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        List<Book> books = readBooksFromCSV("books.csv");
+        List<Order> orders = readOrdersFromCSV("completed_order.csv");
+        List<Book> allBooks = readBooksFromCSV("books.csv");
 
-        // Get sorting field and order from the user
         Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Enter the order ID to sort books for: ");
+        String orderId = scanner.nextLine();
 
         System.out.print("Enter the field to sort by (id, title, author, price): ");
         String field = scanner.nextLine().toLowerCase();
@@ -18,14 +21,11 @@ public class Main {
         System.out.print("Sort in ascending order? (y/n): ");
         boolean ascending = scanner.nextLine().equalsIgnoreCase("y");
 
-        // Sort the books based on user input
-        BookSorter.mergeSort(books, field, ascending);
+        List<Book> sortedBooks = BookSorter.sortBooksByOrder(orders, allBooks, orderId, field, ascending);
+        BookSorter.writeToCSV(sortedBooks, "sorted_books.csv");
 
-        // Write the sorted list back to a CSV file
-        BookSorter.writeToCSV(books, "sorted_books.csv");
-
-        System.out.println("Books sorted by " + field + " in " + (ascending ? "ascending" : "descending")
-                + " order and saved to sorted_books.csv.");
+        System.out.println("Books in order ID " + orderId + " sorted by " + field + " in "
+                + (ascending ? "ascending" : "descending") + " order and saved to sorted_books.csv.");
 
         scanner.close();
     }
@@ -50,5 +50,28 @@ public class Main {
             System.out.println("Error reading CSV file: " + e.getMessage());
         }
         return books;
+    }
+
+    // Method to read orders from CSV and return a list of Order objects
+    private static List<Order> readOrdersFromCSV(String fileName) {
+        List<Order> orders = new ArrayList<>();
+        String line;
+        try (BufferedReader br = new BufferedReader(new FileReader(fileName))) {
+            br.readLine(); // Skip header
+            while ((line = br.readLine()) != null) {
+                String[] values = line.split(",");
+                String orderId = values[0].trim();
+                String customerId = values[1].trim();
+                String customerName = values[2].trim();
+                String orderDate = values[3].trim();
+                String[] bookTitles = values[4].replaceAll("\"", "").split("; ");
+                List<String> books = List.of(bookTitles);
+                double totalPrice = Double.parseDouble(values[5].trim());
+                orders.add(new Order(orderId, customerId, customerName, orderDate, books, totalPrice));
+            }
+        } catch (IOException e) {
+            System.out.println("Error reading CSV file: " + e.getMessage());
+        }
+        return orders;
     }
 }

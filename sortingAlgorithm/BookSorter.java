@@ -6,13 +6,43 @@ import java.util.List;
 
 public class BookSorter {
 
-    public static void mergeSort(List<Book> books, String field, boolean ascending) {
-        if (books == null || books.size() < 2) {
-            return; // No need to sort if the list is empty or has only one element
+    // Method to sort books by specified field and order within an orderId
+    public static List<Book> sortBooksByOrder(List<Order> orders, List<Book> allBooks, String orderId, String field,
+            boolean ascending) {
+        List<Book> booksToSort = new ArrayList<>();
+
+        // Find the books in the specified orderId and match with full book details
+        for (Order order : orders) {
+            if (order.getOrderId().equals(orderId)) {
+                for (String bookTitle : order.getBooks()) {
+                    // Find the book in allBooks by title
+                    for (Book book : allBooks) {
+                        if (book.getTitle().equals(bookTitle)) {
+                            booksToSort.add(book);
+                        }
+                    }
+                }
+                break;
+            }
+        }
+
+        if (booksToSort.isEmpty()) {
+            System.out.println("No books found for order ID: " + orderId);
+            return booksToSort;
+        }
+
+        // Sort books using merge sort based on the specified field and order
+        mergeSort(booksToSort, field, ascending);
+        return booksToSort;
+    }
+
+    private static void mergeSort(List<Book> books, String field, boolean ascending) {
+        if (books.size() < 2) {
+            return; // No need to sort if list is empty or has only one element
         }
         List<Book> sortedBooks = mergeSortHelper(books, getComparator(field, ascending));
         books.clear();
-        books.addAll(sortedBooks); // Update the original list with the sorted list
+        books.addAll(sortedBooks);
     }
 
     private static List<Book> mergeSortHelper(List<Book> books, Comparator<Book> comparator) {
@@ -68,22 +98,18 @@ public class BookSorter {
         return ascending ? comparator : comparator.reversed();
     }
 
-    // Method to write sorted books back to a CSV file
+    // Method to write sorted books to a CSV file
     public static void writeToCSV(List<Book> books, String filename) {
         try (FileWriter writer = new FileWriter(filename)) {
-            // Write header
-            writer.write("id,title,author,price,isbn,stock\n");
-
-            // Write book data
+            writer.write("id,title,author,price,isbn\n");
             for (Book book : books) {
                 writer.write(book.getId() + "," +
                         book.getTitle() + "," +
                         book.getAuthor() + "," +
                         book.getPrice() + "," +
-                        book.getISBN() + "," +
-                        book.getStock() + "\n");
+                        book.getISBN() + "\n");
             }
-            System.out.println("Books written to CSV file: " + filename);
+            System.out.println("Sorted books written to CSV file: " + filename);
         } catch (IOException e) {
             System.out.println("Error writing to CSV file: " + e.getMessage());
         }

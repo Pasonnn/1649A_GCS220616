@@ -46,9 +46,6 @@ public class OrderQueue {
             rear = newNode;
         }
         System.out.println("Order " + orderId + " added to the queue.");
-        for (Book book : books) {
-            book.decrementStock();
-        }
         return true; // Enqueue was successful
     }
 
